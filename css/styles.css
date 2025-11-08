@@ -1,0 +1,93 @@
+/* ==========================================================================
+    GOOGLE FONT IMPORT
+   ========================================================================== */
+/*Figtree*/
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+/* ==========================================================================
+   CSS VARIABLES & RESET
+   ========================================================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Body Formatting*/
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Figtree", sans-serif;
+}
+
+/* ==========================================================================
+    BLOG CARD FORMATTING
+   ========================================================================== */
+/*Format card container size*/
+.card {
+  background-color: #fff;
+  width: 300px;
+  border-radius: 1em;
+  box-shadow: 10px 10px hsl(0, 0%, 7%);
+  padding: 20px;
+}
+
+/*Format card img*/
+.card svg {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1em;
+  margin-bottom: 10px;
+}
+
+/*Format blog tag*/
+.blog-tag {
+  background-color: hsl(47, 88%, 63%);
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 800;
+  padding: 5px 10px;
+  border-radius: 0.5em;
+}
+
+/*Format article date*/
+.article-date {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/*Format blog title*/
+.blog-title {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/*Format body text*/
+.body-text {
+  color: hsl(0, 0%, 42%);
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+/*Format author information container*/
+.author-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+/*Format author icon*/
+.author-icon {
+  width: 10%;
+}
+
+/*Format author title*/
+.author-name {
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 700;
+}
